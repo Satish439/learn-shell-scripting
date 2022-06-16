@@ -3,6 +3,8 @@
 # Declare variable
 a=100
 
+echo $a
+
 #Arithmetic substitution
 
 b=$((3+5))
