@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Declare variable
+a=100
+
+#Arithmetic substitution
+
+b=$((3+5))
+
+echo $b
+
+#Command substitution
+DATE=$(date +%F)
+
+echo Welcome, today date is $DATE
