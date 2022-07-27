@@ -1,0 +1,23 @@
+#!/bin/bash
+
+# Declare a function
+abc() {
+  echo ABC Function
+  echo a= $a
+  b=20
+}
+
+#Declare another function
+xyz() {
+  echo xyz function
+}
+
+#Main Program
+a=10
+
+## Access the function (calling the abc function)
+abc
+echo b= $b
+
+## to call the xyz function
+xyz
