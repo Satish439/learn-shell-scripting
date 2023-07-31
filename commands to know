@@ -1,0 +1,3 @@
+### Reference of Commands to learn###
+
+yum list all | grep mysql
